@@ -1,0 +1,64 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 30px;
+    padding: 0 20px;
+}
+
+.header-wrapper img{
+    width: 180px;
+}
+
+.header-wrapper nav form {
+  width: 300px
+}
+
+.header-wrapper nav form input {
+  width: 100%
+}
+
+.btn-warning {
+  background-color: #FF9C00;
+}
+
+.header-wrapper .login {
+  width: 30px;
+}
+
+@media (max-width: 800px) {
+    .header-wrapper {
+      display: grid;
+      grid-template-areas: 
+      "logo login"
+      "search search"
+      "contact contact";
+      margin: 30px 10px 30px;
+      padding: 0 20px;
+  }
+
+  .header-wrapper .brand {
+    grid-area: logo;
+  }
+
+  .header-wrapper nav {
+    grid-area: search;
+  }
+
+  .header-wrapper .dropdown {
+    grid-area: contact;
+  }
+
+  .header-wrapper .dropdown button{
+    width: 100%;
+  }
+
+  .header-wrapper nav form {
+    width: 100%;
+  }
+
+  .header-wrapper nav {
+    padding: 0;
+    margin: 15px 0;
+  }
+}

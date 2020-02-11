@@ -1,0 +1,17 @@
+.comp-form {
+    display: flex;
+    flex-direction: column;
+    background-color:#BD1753;
+    width: 400px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.comp-form p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.comp-form button{
+    margin-top: 20px;
+}

@@ -1,0 +1,6 @@
+.cardPost-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 2px;
+}
