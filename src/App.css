@@ -12,4 +12,9 @@
     .App .wrapper-main {
         flex-direction: column;
     }
+
+    .App .wrapper-main form {
+        display: flex;
+        margin-left: 0;
+    }
 }
